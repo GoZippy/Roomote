@@ -18,8 +18,8 @@
     "internal-deps": "pnpm list --filter @roomote/worker --depth Infinity 2>/dev/null | grep -E '@roomote/' | grep 'link:' | sed 's/.*@roomote/@roomote/' | sed 's/ link:.*//' | sort -u"
   },
   "dependencies": {
-    "@hono/node-server": "1.19.13",
-    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@hono/node-server": "2.1.3",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "@roomote/auth": "workspace:^",
     "@roomote/cloud-agents": "workspace:^",
     "@roomote/communication": "workspace:^",
@@ -33,9 +33,9 @@
     "@trpc/server": "^11.15.0",
     "chokidar": "^4.0.3",
     "commander": "^14.0.2",
-    "dompurify": "3.4.11",
+    "dompurify": "3.4.17",
     "execa": "9.6.1",
-    "hono": "4.12.27",
+    "hono": "4.13.11",
     "http-proxy": "^1.18.1",
     "ignore": "^7.0.5",
     "jsdom": "26.1.0",
@@ -48,7 +48,7 @@
     "superjson": "^2.2.6",
     "ws": "^8.20.1",
     "yaml": "^2.9.0",
-    "zod": "^3.25.76"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@roomote/config-eslint": "workspace:^",
